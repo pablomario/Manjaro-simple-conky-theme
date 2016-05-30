@@ -1,0 +1,118 @@
+
+-------------------------------------
+--  SIMPLE MANJARO THEME
+--  pablomario@bytelchus.com
+-------------------------------------
+
+conky.config = {
+
+-------------------------------------
+--  Generic Settings
+-------------------------------------
+alignment = 'top_right',
+background=true,
+update_interval=1,
+double_buffer=true,
+no_buffers=true,
+imlib_cache_size=10,
+
+draw_shades=false,
+draw_outline=false,
+draw_borders=false,
+
+
+-------------------------------------
+--  Window Specifications
+-------------------------------------
+	gap_x = 20,
+	gap_y = 20,
+
+minimum_height=390,
+minimum_width=268,
+
+own_window=true,
+own_window_type="normal",
+own_window_transparent=true,
+own_window_hints="undecorated,below,sticky,skip_taskbar,skip_pager",
+
+own_window_argb_visual=true,
+own_window_argb_value=0,
+
+
+-------------------------------------
+--  Text Settings
+-------------------------------------
+use_xft=true,
+xftalpha=1,
+font="Droid Sans:size=10",
+text_buffer_size=256,
+override_utf8_locale=true,
+
+
+-------------------------------------
+--  Color Scheme
+-------------------------------------
+default_color='FFFFFF',
+
+color='FFFFFF', -- clock
+color0='FFFFFF', -- clock
+color1='FFFFFF', -- date
+
+-------------------------------------
+--  Locale (e.g. "es_ES.UTF-8")
+--  Leave empty for default
+-------------------------------------
+template9=""
+
+}
+
+
+---------------------------------------------------
+---------------------------------------------------
+
+
+conky.text = [[
+\
+\
+${font Poiret One:weight=Light:size=60}${color0}\
+${alignr}${time %H:%M}\
+${font}${color}
+\
+\
+\
+\
+${font Poiret One:weight=Light:size=22}${color1}\
+${voffset 7}\
+${alignr}${execi 300 LANG=${template9} LC_TIME=${template9} date +"%A, %B %d"}\
+${font}${color}
+\
+\
+\
+\
+${voffset 7}
+${alignr} ${execi 1200 whoami}@${nodename}
+${alignr} ${color2}${font}${color}${alignr}kernel: ${color 2ECC71}${kernel}
+${alignr} ${color} actualizaciones disponibles: ${font}${color 2ECC71}${execpi 10800 checkupdates | wc -l}
+\
+\
+\
+\
+${voffset 10}${goto 40}${color}CPU$alignr$cpu%
+${voffset 5}${goto 40}$font$color2${top name 1}$alignr$color${top cpu 1}%
+${goto 40}$color2${top name 2}$alignr$color${top cpu 2}%
+${goto 40}$color2${top name 3}$alignr$color${top cpu 3}%
+${goto 40}$color2${top name 4}$alignr$color${top cpu 4}%
+\
+\
+\
+\
+${voffset 10}${goto 40}${color}RAM$alignr$mem
+${goto 40}${voffset 5}$color2${top_mem name 1}$alignr$color${top_mem mem_res 1}
+${goto 40}$color2${top_mem name 2}$alignr$color${top_mem mem_res 2}
+${goto 40}$color2${top_mem name 3}$alignr$color${top_mem mem_res 3}
+${goto 40}$color2${top_mem name 4}$alignr$color${top_mem mem_res 4}
+\
+\
+\
+\
+]]
