@@ -3,7 +3,7 @@ alt="Manjaro simple theme banner" align="center" />
 
 <br />
 
-<div align="center"><strong>A simple and funcional conky theme for Manjaro </strong></div>
+<div align="center"><strong>## A simple and funcional conky theme for Manjaro </strong></div>
 <div align="right">...with love for Manjaro</div>
 
 <br />
@@ -16,4 +16,4 @@ alt="Manjaro simple theme banner" align="center" />
 <br />
 
 
-This project is a labor of love. I ([Max](https://twitter.com/mxstbr)) 
+This project is a labor of love. I ([pablomario](http://bytelchus.com/)) 
