@@ -3,17 +3,25 @@ alt="Manjaro simple theme banner" align="center" />
 
 <br />
 
-<div align="center"><strong>## A simple and funcional conky theme for Manjaro </strong></div>
-<div align="right">...with love for Manjaro</div>
+A simple and funcional conky theme for Manjaro
+---
+
+...with love for Manjaro 
 
 <br />
 
-## Installation
+###Installation
 
+* Install **conky** .
 
+* Install the [Poiret One](https://www.google.com/fonts/specimen/Poiret+One) font.
+
+* Move the `.conkyrc` file into your `~` dir.
+
+**NOTE** some files/folders are hidden; unhide them. :smile:
 
 
 <br />
 
 
-This project is a labor of love. I ([pablomario](http://bytelchus.com/)) 
+This project is a labor of love. ([pablomario](http://bytelchus.com/)) 
