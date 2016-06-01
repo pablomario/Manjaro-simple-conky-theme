@@ -107,7 +107,7 @@ ${goto 10}$color2${top name 4}$alignr$color${top cpu 4}%
 \
 \
 \
-${voffset 20}${goto 10}${color}RAM$alignr${color } $memperc% $mem/$memmax
+${voffset 20}${goto 10}${color}RAM$alignr${color } $memperc%
 ${goto 10}$color${hr}
 ${goto 10}${voffset 5}$color2${top_mem name 1}$alignr${color 2ECC71}${top_mem mem_res 1}
 ${goto 10}$color2${top_mem name 2}$alignr$color${top_mem mem_res 2}
