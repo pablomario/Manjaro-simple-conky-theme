@@ -12,7 +12,8 @@ A simple and funcional conky theme for Manjaro
 
 ###Installation
 
-* Install **conky** .
+* Install **conky**.
+    * If you use **Manjaro** or **Arch**, try: <code>$sudo pacman -S conky</code>
 
 * Install the [Poiret One](https://www.google.com/fonts/specimen/Poiret+One) font.
 
