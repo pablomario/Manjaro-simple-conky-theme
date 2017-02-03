@@ -83,7 +83,7 @@ ${font}${color}
 \
 ${font Poiret One:weight=Light:size=22}${color1}\
 ${voffset 7}\
-${alignr}${execi 300 LANG=${template9} LC_TIME=${template9} date +"%A, %B %d"}\
+${alignr}${execi 300 LANG=${template9} LC_TIME=${template9} date +"%A, %d de %B"}\
 ${font}${color}
 \
 \
@@ -97,7 +97,7 @@ ${alignr} ${color} actualizaciones disponibles: ${font}${color 2ECC71}${execpi 1
 \
 \
 \
-${voffset 20}${goto 10}${color}CPU$alignr$cpu% 
+${voffset 20}${goto 10}${color}CPU$alignr$cpu%
 ${goto 10}$color${hr}
 ${voffset 5}${goto 10}$font$color2${top name 1}$alignr${color 2ECC71}${top cpu 1}%
 ${goto 10}$color2${top name 2}$alignr$color${top cpu 2}%
