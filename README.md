@@ -1,7 +1,5 @@
-<center>
 <img src="https://github.com/pablomario/Manjaro-simple-conky-theme/blob/master/main-simple-conky.png" 
 alt="Manjaro simple theme banner" align="center" />
-</center>
 <br />
 
 A simple and funcional conky theme for Manjaro
