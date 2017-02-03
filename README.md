@@ -17,7 +17,7 @@ A simple and funcional conky theme for Manjaro
 
 * Install the [Poiret One](https://www.google.com/fonts/specimen/Poiret+One) font.
 
-* Move the `.conkyrc` file into your `~` dir.
+* Move the `.conkyrc`(hidden) file into your `~` (user home) dir.
 
 **NOTE** some files/folders are hidden; unhide them. :smile:
 
