@@ -9,7 +9,7 @@ A simple and funcional conky theme for Manjaro
 
 <br />
 
-###Installation
+### Installation
 
 * Install **conky**.
     * If you use **Manjaro** or **Arch**, try: <code>$sudo pacman -S conky</code>
